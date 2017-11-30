@@ -1,0 +1,267 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ArquiDefensa",
+		"_postman_id": "722e8dd3-85b3-91a5-f3e8-f3e76afbf26e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Supplies",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8080/ROI-Supplies-war/supplies",
+					"request": {
+						"url": "http://localhost:8080/ROI-Supplies-war/supplies",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Supplies-war/supplies",
+					"request": {
+						"url": "http://localhost:8080/ROI-Supplies-war/supplies",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clientId\": 8,\n    \"supplyingStart\": \"Nov 20, 2007 11:28:46 PM\",\n    \"volumeContracted\": 1523,\n    \"serviceEndPointId\": 9,\n    \"payDay\": 25\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Supplies-war/supplies/2",
+					"request": {
+						"url": "http://localhost:8080/ROI-Supplies-war/supplies/1",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Supplies-war/supplies",
+					"request": {
+						"url": "http://localhost:8080/ROI-Supplies-war/supplies",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":1,\n    \"clientId\": 7,\n    \"supplyingStart\": \"Nov 10, 2007 11:28:46 PM\",\n    \"volumeContracted\": 322,\n    \"serviceEndPointId\": 5,\n    \"payDay\": 30\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Supplies-war/supplies/1",
+					"request": {
+						"url": "http://localhost:8080/ROI-Supplies-war/supplies/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planner",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8080/ROI-Planner-war/planner",
+					"request": {
+						"url": "http://localhost:8080/ROI-Planner-war/planner",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Planner-war/planner/1",
+					"request": {
+						"url": "http://localhost:8080/ROI-Planner-war/planner/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Planner-war/planner",
+					"request": {
+						"url": "http://localhost:8080/ROI-Planner-war/planner",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "1"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Planner-war/planner",
+					"request": {
+						"url": "http://localhost:8080/ROI-Planner-war/planner",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "1"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-Planner-war/planner/1",
+					"request": {
+						"url": "http://localhost:8080/ROI-Planner-war/planner/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sensor",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor",
+					"request": {
+						"url": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor",
+					"request": {
+						"url": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor",
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "1"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor/report",
+					"request": {
+						"url": "http://localhost:8080/ROI-PipeLineMonitor-war/sensor/report",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"sensorId\":\"2\",\n\t\"pipelineId\":\"1\",\n\t\"value\":\"322\",\n\t\"date\":\"Nov 25, 2017 11:28:32 PM\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pipeline",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8080/ROI-PipeLineMonitor-war/pipeline",
+					"request": {
+						"url": "http://localhost:8080/ROI-PipeLineMonitor-war/pipeline",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/ROI-PipeLineMonitor-war/pipeline",
+					"request": {
+						"url": "http://localhost:8080/ROI-PipeLineMonitor-war/pipeline",
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "97"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
